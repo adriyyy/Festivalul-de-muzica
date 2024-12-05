@@ -1,7 +1,16 @@
 function App() {
   return (
     <>
-      <button className="btn text-xl btn-primary">Button</button>
+      <button
+        className="flex max-w-6xl mx-auto min-h-full"
+        style={{
+          backgroundImage: `url('../public/images/background1.png')`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
+      >
+        thd
+      </button>
     </>
   );
 }
