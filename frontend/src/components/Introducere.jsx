@@ -4,12 +4,12 @@ const Introducere = () => {
   return (
     <div className="text-center mb-10">
       <h1
-        className="text-6xl mt-8 font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-purple-500"
+        className="text-6xl mt-8 font-bold text-transparent bg-clip-text bg-gradient-to-r from-white to-purple-500"
         style={{ fontFamily: "'Press Start 2P', sans-serif" }}
       >
         <div className="inline-block relative mr-4">
           {" "}
-          <div className="p-4 rounded-full bg-gradient-to-r from-pink-500 to-purple-500 animate-pulse">
+          <div className="p-4 rounded-full bg-gradient-to-r from-pink-300 to-purple-500 animate-pulse">
             <FaRecordVinyl className="text-white text-4xl" />
           </div>
           <div className="absolute inset-0 rounded-full border border-transparent animate-glow"></div>

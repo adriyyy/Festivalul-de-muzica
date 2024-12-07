@@ -10,7 +10,7 @@ import Dezvaluire from "../components/Dezvaluire";
 
 const ExplicationPage = () => {
   return (
-    <div className="min-h-screen bg-base-200 p-6">
+    <div className="min-h-screen bg-base-200 p-6 bg-[url('/images/background2.png')] bg-cover bg-center bg-fixed bg-no-repeat">
       <Introducere />
       <Exemplu />
       <Backtracking />
