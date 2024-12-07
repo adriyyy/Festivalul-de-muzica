@@ -7,15 +7,14 @@ export default {
   theme: {
     extend: {
       animation: {
-        "scroll-tray": "scroll-vertical 80s linear infinite",
+        slideUp: "slideUp 80s ease-out infinite",
         wiggle: "wiggle 0.5s ease-in-out infinite",
         pop: "pop 0.2s ease-out",
       },
       keyframes: {
-        "scroll-vertical": {
+        slideUp: {
           "0%": { transform: "translateY(0)" },
-          "99.99%": { transform: "translateY(-7089px)" }, // Ajustează la înălțimea totală a imaginilor
-          "100%": { transform: "translateY(0)" },
+          "100%": { transform: "translateY(-4420px)" },
         },
         wiggle: {
           "0%, 100%": { transform: "rotate(-3deg)" },
@@ -26,6 +25,16 @@ export default {
           "100%": {
             transform: "scale(1.05)",
             boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)",
+          },
+        },
+        glow: {
+          "0%": {
+            textShadow: "0 0 5px #0f0, 0 0 10px #0f0, 0 0 20px #0f0",
+            transform: "scale(1)",
+          },
+          "100%": {
+            textShadow: "0 0 10px #0f0, 0 0 20px #0f0, 0 0 30px #0f0",
+            transform: "scale(1.1)",
           },
         },
       },

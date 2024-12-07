@@ -12,15 +12,17 @@ const VerticalSlider = () => {
     "/images/img10.jpg",
   ];
   return (
-    <div className="overflow-hidden h-full w-60 relative flex flex-col animate-scroll-tray pointer-events-none">
-      {images.map((image, index) => (
-        <img
-          key={index}
-          src={image}
-          alt={`Imagine ${index + 1}`}
-          className="block w-full h-auto"
-        />
-      ))}
+    <div className="relative w-[300px] h-[600px] overflow-hidden border rounded-lg shadow-md hidden sm:block">
+      <div className="absolute inset-0 flex flex-col space-y-4 animate-slideUp">
+        {images.map((src, index) => (
+          <img
+            key={index}
+            src={src}
+            alt={`Slide ${index + 1}`}
+            className="w-full h-auto object-cover rounded-md"
+          />
+        ))}
+      </div>
     </div>
   );
 };
