@@ -4,7 +4,7 @@ const Introducere = () => {
   return (
     <div className="text-center mb-10">
       <h1
-        className="text-6xl mt-8 font-bold text-transparent bg-clip-text bg-gradient-to-r from-white to-purple-500"
+        className="text-6xl xs:mt-12 mt-16 font-bold text-transparent bg-clip-text bg-gradient-to-r from-white to-purple-500"
         style={{ fontFamily: "'Press Start 2P', sans-serif" }}
       >
         <div className="inline-block relative mr-4">

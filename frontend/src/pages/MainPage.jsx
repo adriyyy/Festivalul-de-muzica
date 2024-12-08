@@ -13,7 +13,7 @@ const MainPage = () => {
 
   return (
     <div className="relative overflow-hidden flex flex-col md:flex-row justify-center items-center min-h-screen bg-[url('/images/background.png')] bg-cover bg-center bg-no-repeat">
-      <VerticalSlider className="hidden md:block" />
+      <VerticalSlider />
 
       <div className="relative flex flex-col justify-center items-center md:items-start w-full max-w-[1200px] z-20 px-6">
         <h1 className="text-5xl font-extrabold mt-3 bg-gradient-to-r from-pink-500 to-yellow-400 bg-clip-text text-transparent text-center md:text-left flex items-center gap-3 hover:glow transition duration-300">
@@ -43,7 +43,7 @@ const MainPage = () => {
         } transition-transform duration-700 ease-bounce hidden md:block`}
       >
         <img
-          src="/images/guitar1.png"
+          src="/images/Guitar1.png"
           alt="Guitar 1"
           className="w-[500px] h-auto z-10"
         />
@@ -54,7 +54,7 @@ const MainPage = () => {
         } transition-transform duration-700 ease-bounce delay-200 hidden md:block`}
       >
         <img
-          src="/images/guitar2.png"
+          src="/images/Guitar2.png"
           alt="Guitar 2"
           className="w-[500px] h-auto z-0"
         />

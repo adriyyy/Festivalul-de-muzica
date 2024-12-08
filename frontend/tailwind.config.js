@@ -6,6 +6,9 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      screens: {
+        xs: "470px",
+      },
       animation: {
         slideUp: "slideUp 80s ease-out infinite",
         wiggle: "wiggle 0.5s ease-in-out infinite",

@@ -5,13 +5,13 @@ const Step3 = ({ results, handleReset }) => {
   const [audio, setAudio] = useState(null); // Starea pentru audio activ
 
   const musicFiles = {
-    jazz: "/audio/jazz.mp3",
-    pop: "/audio/pop.mp3",
-    rock: "/audio/rock.mp3",
-    clasica: "/audio/clasica.mp3",
-    folk: "/audio/folk.mp3",
-    rap: "/audio/rap.mp3",
-    disco: "/audio/disco.mp3",
+    jazz: "/audio/Jazz.mp3",
+    pop: "/audio/Pop.mp3",
+    rock: "/audio/Rock.mp3",
+    clasica: "/audio/Clasica.mp3",
+    folk: "/audio/Folk.mp3",
+    rap: "/audio/Rap.mp3",
+    disco: "/audio/Disco.mp3",
   };
 
   const handleClick = (music) => {
@@ -48,7 +48,7 @@ const Step3 = ({ results, handleReset }) => {
 
   return (
     <div className="box p-6 rounded-lg shadow-lg bg-gradient-to-r from-peach-100 via-blue-200 to-blue-500 w-full max-w-xl mx-auto animate-fade-in-right">
-      <h1 className="text-4xl font-bold text-center mb-6 text-transparent bg-clip-text bg-gradient-to-r from-white to-peach animate-pop">
+      <h1 className="text-4xl font-bold text-center mb-6 xs:mt-6 mt-20 text-transparent bg-clip-text bg-gradient-to-r from-white to-peach animate-pop">
         Ordine Generate
       </h1>
       {/* Container scrollabil */}

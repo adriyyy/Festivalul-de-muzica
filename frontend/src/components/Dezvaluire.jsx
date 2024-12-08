@@ -90,7 +90,7 @@ int main(){
       >
         {showSolution
           ? "Ascunde rezolvarea"
-          : "Click aici pentru a dezvălui rezolvarea"}
+          : "Click pentru a dezvălui rezolvarea"}
       </button>
       {showSolution && (
         <div className="relative mt-5">

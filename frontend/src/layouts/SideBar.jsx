@@ -4,7 +4,7 @@ import { FaMusic, FaGuitar, FaHome, FaMagic } from "react-icons/fa";
 const Sidebar = () => {
   return (
     <div className="fixed top-0 left-0 w-full bg-transparent z-30">
-      <div className="flex justify-between items-center px-6 py-3 backdrop-blur-md">
+      <div className="flex justify-between items-center px-6 py-2 backdrop-blur-md">
         {/* Logo */}
         <div className="flex items-center gap-3">
           <FaMusic className="text-yellow-400 text-2xl" />
