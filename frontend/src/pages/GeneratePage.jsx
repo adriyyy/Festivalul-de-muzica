@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { toast } from "react-toastify";
+import { Helmet } from "react-helmet";
 import "react-toastify/dist/ReactToastify.css";
 
 import Step1 from "../components/Step1";
@@ -100,6 +101,18 @@ const GeneratePage = () => {
 
   return (
     <div className="relative min-h-screen bg-black">
+      <Helmet>
+        <title>Generare Permutări</title>
+        <meta
+          name="description"
+          content="Pagina de generare a permutărilor pentru codurile muzicale, utilizând un algoritm avansat de backtracking. Explorați și generați combinațiile ideale!"
+        />
+        <meta
+          name="keywords"
+          content="permutări, backtracking, algoritmi, festival muzică, React"
+        />
+      </Helmet>
+
       <video
         autoPlay
         loop

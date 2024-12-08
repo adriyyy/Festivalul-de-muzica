@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { FaMusic } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
 import VerticalSlider from "../components/VerticalSlider";
 
 const MainPage = () => {
@@ -13,6 +14,20 @@ const MainPage = () => {
 
   return (
     <div className="relative overflow-hidden flex flex-col md:flex-row justify-center items-center min-h-screen bg-[url('/images/background.png')] bg-cover bg-center bg-no-repeat">
+      {/* Adăugăm Helmet pentru meta informații */}
+      <Helmet>
+        <title>Festivalul de Muzică - Pagina Principală</title>
+        <meta
+          name="description"
+          content="Pagina principală a Festivalului de Muzică: descoperă cum să combini informatica cu arta muzicii. Explorează algoritmi și generează permutări muzicale!"
+        />
+        <meta
+          name="keywords"
+          content="festival muzică, algoritmi, permutări, React, informatică și muzică, React Helmet"
+        />
+      </Helmet>
+
+      {/* Slider vertical */}
       <VerticalSlider />
 
       <div className="relative flex flex-col justify-center items-center md:items-start w-full max-w-[1200px] z-20 px-6">
