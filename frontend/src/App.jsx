@@ -3,7 +3,7 @@ import ExplicationPage from "./pages/ExplicationPage";
 import GeneratePage from "./pages/GeneratePage";
 import MainPage from "./pages/MainPage";
 import Sidebar from "./layouts/SideBar";
-import NotFound from "./components/NotFound";
+import NotFound from "./pages/NotFoundPage";
 import { ToastContainer } from "react-toastify";
 
 function App() {
