@@ -17,7 +17,7 @@ const Step1 = ({ count, setCount, handleGenerateInputs }) => {
           className="btn btn-primary text-white transform hover:scale-105 hover:shadow-lg transition-all ease-in-out"
           onClick={handleGenerateInputs}
         >
-          Genereaza inputuri
+          Generează inputuri
         </button>
       </div>
     </div>

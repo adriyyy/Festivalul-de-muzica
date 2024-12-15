@@ -10,14 +10,15 @@ export default {
         xs: "470px",
       },
       animation: {
-        slideUp: "slideUp 80s ease-out infinite",
+        slideUp: "slideUp 70s linear infinite",
         wiggle: "wiggle 0.5s ease-in-out infinite",
         pop: "pop 0.2s ease-out",
       },
       keyframes: {
         slideUp: {
-          "0%": { transform: "translateY(0)" },
-          "100%": { transform: "translateY(-4420px)" },
+          "0%": { transform: "translateY(20px)" },
+          "98%": { transform: "translateY(-4420px)" },
+          "100%": { transform: "translateY(20px)" },
         },
         wiggle: {
           "0%, 100%": { transform: "rotate(-3deg)" },
