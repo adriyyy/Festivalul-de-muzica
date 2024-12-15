@@ -75,6 +75,7 @@ int main(){
         cout << "Codul introdus nu se regaseste in sir. Introdu un cod valid: ";
         cin >> aux;
     }
+    
     back(1);
     return 0;
 }`);
@@ -158,7 +159,6 @@ int cautare_muz(char c[100]){
 }
 
 int main(){
-
     cout << "Introdu un numar n(intre 5 si 12): "; cin >> n;
     while(n < 5 || n > 12){
         cout << "Numarul introdus nu respecta cerintele. Incearca din nou: ";
@@ -184,9 +184,10 @@ int main(){
         cout << "Codul introdus nu se regaseste in sir. Introdu un cod valid: ";
         cin >> aux;
     }
+    
     back(1);
     return 0;
-          `}
+}`}
           </SyntaxHighlighter>
         </div>
       )}
